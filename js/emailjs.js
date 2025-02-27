@@ -1,7 +1,7 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     // Initialize EmailJS
-    emailjs.init("8lWlsY2yYDIPlK9HJ"); // Replace with your actual Public Key
+    emailjs.init("Z9UWye7KR5k-DExtN"); // Replace with your actual Public Key
 
     // Attach click event listener to the custom button
     document.getElementById("custom-send-btn").addEventListener("click", function () {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         // Send Email using EmailJS
-        emailjs.send("service_3iu2ytk", "template_uoforei", templateParams)
+        emailjs.send("service_ryul3xi", "template_c0y9su8", templateParams)
             .then(function (response) {
                 console.log("✅ Email successfully sent!", response);
                 alert("✅ Email sent successfully!");
